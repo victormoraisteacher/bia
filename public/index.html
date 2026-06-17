@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Bia Talks — Day by Day</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+
+<!-- ===== HOME ===== -->
+<div id="home">
+  <div class="hdr">
+    <span class="logo-bia">BIA</span>
+    <span class="logo-tag">TALKS</span>
+  </div>
+
+  <div class="hero">
+    <p class="hero-sup">Professora de Inglês por IA</p>
+    <h1 class="hero-h1">
+      <span class="hero-num">50</span>
+      Simulações de Inglês
+      <span class="hero-it">para Viagens ✈️</span>
+    </h1>
+    <p class="hero-p">Pratique situações reais com a Bia Talks, sua professora por IA com o método RCE.</p>
+  </div>
+
+  <div class="bia-card">
+    <div class="card-glow"></div>
+    <div class="bia-img-wrap">
+      <img class="bia-img" id="h-photo" alt="Bia Talks"/>
+    </div>
+    <div class="bia-info">
+      <div class="bia-name">Bia Talks</div>
+      <div class="bia-role">Sua Professora de Inglês por IA</div>
+      <div class="bia-pill">
+        <span class="pulse"></span>Online agora · Pronta para praticar
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-n">50</div><div class="stat-l">Diálogos</div></div>
+    <div class="stat"><div class="stat-n">RCE</div><div class="stat-l">Método</div></div>
+    <div class="stat"><div class="stat-n">IA</div><div class="stat-l">Ao vivo</div></div>
+  </div>
+
+  <div class="sec">
+    <p class="sec-lbl">O que você pratica</p>
+    <div class="feat"><div class="feat-ic">✈️</div><div><h3>Situações reais de viagem</h3><p>Aeroporto, hotel, restaurante, banco e mais 46 temas</p></div></div>
+    <div class="feat"><div class="feat-ic">🔁</div><div><h3>Repetição ativa com contexto</h3><p>Frases treinadas dentro de situações que fazem sentido</p></div></div>
+    <div class="feat"><div class="feat-ic">🎭</div><div><h3>Simulação ou Correção</h3><p>Você escolhe o modo e o nível da prática</p></div></div>
+    <div class="feat"><div class="feat-ic">📅</div><div><h3>Plano guiado de 5 a 25 dias</h3><p>Ou escolha livremente o tema que quiser hoje</p></div></div>
+  </div>
+
+  <div class="sec">
+    <p class="sec-lbl">Pratique situações reais como</p>
+    <div class="chips">
+      <span class="chip">✈️ Aeroporto</span>
+      <span class="chip">🛂 Imigração</span>
+      <span class="chip">🍽️ Restaurante</span>
+      <span class="chip">🏨 Hotel</span>
+      <span class="chip">🚌 Transporte</span>
+      <span class="chip">🛍️ Compras</span>
+      <span class="chip">💊 Farmácia</span>
+      <span class="chip">🏦 Banco</span>
+      <span class="chip">👔 Entrevista</span>
+      <span class="chip">🚨 Emergência</span>
+      <span class="chip">📦 Delivery</span>
+      <span class="chip">+ 39 mais</span>
+    </div>
+  </div>
+
+  <div class="ctas">
+    <button class="btn-main" id="start-btn" type="button">Começar agora com a Bia 🚀</button>
+    <a class="btn-sec" href="50_transcricoes.pdf" download="BIA_TALKS_50_Dialogos.pdf">
+      📄 Baixar os 50 diálogos em PDF
+    </a>
+  </div>
+
+  <div class="footer">
+    <span class="rce-tag">MÉTODO RCE · REPETIÇÃO · CONTEXTO · EMOÇÃO</span>
+  </div>
+</div>
+
+<!-- ===== CHAT ===== -->
+<div id="chat">
+  <div class="chat-hdr">
+    <button class="back-btn" id="back-btn" type="button">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+    </button>
+    <img class="chat-av" id="c-photo" alt="Bia"/>
+    <div style="flex:1">
+      <div class="chat-name">Bia Talks</div>
+      <div class="chat-status">Online agora</div>
+    </div>
+    <div class="chat-logo">BIA<br>TALKS</div>
+  </div>
+
+  <div id="msgs">
+    <div class="typing" id="typing">
+      <img class="msg-av" id="t-photo" alt="Bia"/>
+      <div class="typing-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="input-area">
+    <textarea id="txt" placeholder="Digite sua resposta..." rows="1"></textarea>
+    <button class="voice-btn" id="vbtn" type="button" title="Falar em inglês">🎙️</button>
+    <button class="send-btn" id="sbtn" type="button" disabled>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+</div><!-- #wrap -->
+
+<script src="app.js"></script>
+</body>
+</html>
